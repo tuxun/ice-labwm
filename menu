@@ -9,7 +9,7 @@ prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
 prog fte fte fte
 prog NEdit nedit nedit
 prog iceweasel iceweasel iceweasel
-prog XChat xchat xchat
+prog pidgin pidgin pidgin
 
 separator
 menuprog Gnome folder icewm-menu-gnome1 --list 

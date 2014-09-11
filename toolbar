@@ -17,5 +17,6 @@ menu setting /usr/share/icons/HighContrast/32x32/emblems/emblem-system.png {
 prog 1024x600 1024x600 xrandr -s 0
 prog  800x600   800x600  xrandr -s 1
 prog  640x480   640x480  xrandr -s 2
+prog icecc icecc icecc
 }
 

@@ -1,5 +1,5 @@
 prog Gimp gimp gimp
 prog "Inkscape" inkscape inkscape
-prog "gschem" gschem gschem
+prog "gschem" gaf-icon gschem
 prog "pcb" pcb pcb-gtk
-prog "fritzing" fritzing-icon Fritzing
+prog "fritzing" fritzing_icon Fritzing

@@ -13,7 +13,7 @@ AddressBarCommand="grun"
 DesktopBackgroundCenter= 1 # 0/1
 
 SupportSemitransparency=1 # 0/1
-
+ IconPath="themes/tuxun/icons:/usr/share/icons:/usr/share/pixmaps"
 
 
 #  Execute taskbar applet commands (like MailCommand,     ClockCommand,   ...) on single click
@@ -91,14 +91,14 @@ NetworkStatusDevice="wlan0 ethO"
 # CPUStatusCommand="x-terminal-emulator -name top -title Process\ Status -e top"
 
 #  Icon search path (colon separated)
-# IconPath="/usr/share/icons:/usr/share/pixmaps"
+
 #  Show address bar in task bar
  ShowAddressBar=1 # 0/1
 
 #  Number of seconds the taskbar app will blink when requesting focus (0 = forever)
  FocusRequestFlashTime=120 # [0-86400]
 #  Overrides automatic multiple byte detection
- MultiByte=1 # 0/1
+ MultiByte=0 # 0/1
 
 #  Taskbar blink interval (ms) when requesting focus (0 = blinking disabled)
  FocusRequestFlashInterval=250 # [0-30000]
@@ -155,7 +155,7 @@ NetworkStatusDevice="wlan0 ethO"
 #  
 
 #  Does it support the 'O' title bar button images (for mouse rollover)
- RolloverButtonsSupported=1 # 0/1
+ RolloverButtonsSupported=0 # 0/1
 #  Image to announce for semi-transparent windows
 # DesktopTransparencyImage=""
 WorkspaceNames="CAO", "SRC", "WEB", "ETC"
@@ -175,6 +175,7 @@ CPUStatusShowCpuFreq=1# 0/1
 #  (you might want to disable this if you keep the window list on the task bar)
 
 
+MenuMouseTracking=1
 ShowWindowList=0 # 0/1
 #  Command to run on clock
 ClockCommand="orage"
