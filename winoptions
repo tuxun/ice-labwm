@@ -1,0 +1,5 @@
+Mail.Thunderbird.workspace: 3
+Navigator.Firefox.workspace: 1
+
+# It doesn't do it automatically in IceWM
+xfce4-notes.allWorkspaces: 1

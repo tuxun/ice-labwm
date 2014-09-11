@@ -1,0 +1,126 @@
+ThemeDescription="Modified Clearlooks, darker"
+
+ThemeAuthor="Mod by ikisham"
+
+Look=metal
+
+RolloverButtonsSupported=1
+TrayDrawBevel=1
+TitleButtonsSupported="xmis"
+ShowMenuButtonIcon=1
+TaskBarClockLeds=0
+
+#SmallIconSize=22
+
+TitleBarJustify=50
+TitleBarHeight=19
+BorderSizeX=3
+BorderSizeY=3
+CornerSizeX=19
+CornerSizeY=19
+DlgBorderSizeX=3
+DlgBorderSizeY=3
+
+ColorToolTip="rgb:f5/f5/b5"
+ColorToolTipText="rgb:00/00/00"
+ColorLabel="rgb:bf/bf/bf"
+ColorLabelText="rgb:00/00/00" 
+
+ColorQuickSwitch="rgb:bf/bf/bf"
+ColorQuickSwitchText="rgb:00/00/00"
+ColorQuickSwitchActive="rgb:4d/6e/92"
+
+TitleBarVertOffset=-1
+ColorActiveTitleBarText="rgb:d8/d8/d8"
+ColorActiveTitleBarShadow="rgb:54/7b/ad"
+ColorNormalTitleBarText="rgb:6b/6a/6a"
+ColorNormalTitleBarShadow=""
+ColorActiveBorder="rgb:3D/3D/3D"
+ColorNormalBorder="rgb:00/00/00"
+
+ColorDialog="rgb:bf/bf/bf"
+ColorListBox="rgb:bf/bf/bf"
+ColorListBoxText="rgb:00/00/00" 
+ColorListBoxSelection="rgb:4d/6e/92"
+ColorListBoxSelectionText="rgb:d8/d8/d8"
+ScrollBarX=15
+ScrollBarY=15
+ColorScrollBar="rgb:d6/d4/d2"
+ColorScrollBarSlider="rgb:4d/6e/92"
+ColorScrollBarButton="rgb:eb/ea/e9"
+ColorScrollBarButtonArrow="rgb:00/00/00"
+
+ColorMoveSizeStatus="rgb:bf/bf/bf"
+ColorMoveSizeStatusText="rgb:00/00/00"
+
+ColorNormalMenu="rgb:d8/d8/d8"
+ColorNormalMenuItemText="rgb:00/00/00" 
+ColorActiveMenuItem="rgb:aa/aa/aa"
+ColorActiveMenuItemText="rgb:d8/d8/d8"
+ColorDisabledMenuItemText="rgb:ab/a7/a5"
+ColorDisabledMenuItemShadow="rgb:d8/d8/d8"
+
+ColorDefaultTaskBar="rgb:bf/bf/bf"
+ColorNormalButton="rgb:bf/bf/bf"
+ColorNormalButtonText="rgb:00/00/00"
+ColorActiveButton="rgb:ca/c8/c5"
+ColorActiveButtonText="rgb:00/00/00"
+ColorToolButton="rgb:bf/bf/bf"
+ColorToolButtonText="rgb:00/00/00"
+ColorNormalWorkspaceButton="rgb:bf/bf/bf"
+ColorNormalWorkspaceButtonText="rgb:00/00/00"
+ColorActiveWorkspaceButton="rgb:ca/c8/c5"
+ColorActiveWorkspaceButtonText="rgb:00/00/00"
+ColorInput="rgb:d8/d8/d8"
+ColorInputText="rgb:00/00/00"
+ColorInputSelection="rgb:4d/6e/92"
+ColorInputSelectionText="rgb:d8/d8/d8"
+ColorNormalTaskBarApp="rgb:bf/bf/bf"
+ColorNormalTaskBarAppText="rgb:00/00/00"
+ColorInvisibleTaskBarApp="rgb:bf/bf/bf"
+ColorInvisibleTaskBarAppText="rgb:ab/a7/a5" 
+ColorActiveTaskBarApp="rgb:ca/c8/c5"
+ColorActiveTaskBarAppText="rgb:00/00/00"
+ColorMinimizedTaskBarApp="rgb:bf/bf/bf"
+ColorMinimizedTaskBarAppText="rgb:00/00/00"
+
+ColorApm=""
+ColorApmText="rgb:00/00/00"
+
+ColorCPUStatusIdle="rgb:00/00/00"
+ColorCPUStatusInterrupts="rgb:00/00/00"
+ColorCPUStatusIoWait="rgb:00/2f/3d"
+ColorCPUStatusSoftIrq="rgb:d8/d8/d8"
+ColorCPUStatusUser="rgb:00/72/b2"
+ColorCPUStatusSystem="rgb:00/91/e5"
+ColorCPUStatusNice="rgb:00/a2/fe"
+
+ColorNetIdle="rgb:00/00/00"
+ColorNetReceive="rgb:00/fa/fe"
+ColorNetSend="rgb:00/96/99"
+
+ColorClock=""
+ColorClockText="rgb:00/00/00"
+
+DesktopBackgroundColor="rgb:31/42/59"
+#DesktopBackgroundImage="wallpaper.png"
+#DesktopBackgroundCenter="0"
+
+TitleFontNameXft		=	sans-serif:size=10:bold
+MenuFontNameXft			=	sans-serif:size=10
+MinimizedWindowFontNameXft	=	sans-serif:size=10
+ActiveButtonFontNameXft		=	sans-serif:size=11
+NormalButtonFontNameXft		=	sans-serif:size=9
+ToolButtonFontNameXft		=	sans-serif:size=10
+NormalWorkspaceFontNameXft	=	sans-serif:size=10
+ActiveWorkspaceFontNameXft	=	sans-serif:size=10
+QuickSwitchFontNameXft		=	sans-serif:size=10
+ListBoxFontNameXft		=	sans-serif:size=10
+StatusFontNameXft		=	sans-serif:size=10
+ToolTipFontNameXft		=	sans-serif:size=10
+ActiveTaskBarFontNameXft	=	sans-serif:size=10
+NormalTaskBarFontNameXft	=	sans-serif:size=10
+ClockFontNameXft		=	sans-serif:size=10
+InputFontNameXft		=	"DejaVu Sans Mono:size=12"
+LabelFontNameXft		=	sans-serif:size=10
+ApmFontNameXft			=	sans-serif:size=10

@@ -1,0 +1,212 @@
+CPUStatusShowAcpiTemp=1 # 0/1
+TaskBarDoubleHeight=1 # 0/1
+PagerShowPreview=1 # 0/1
+ShowRun=1 # 0/1
+EnableAddressBar=1 # 0/1
+ShowAddressBar=1 # 0/1
+# ShutdownCommand=""
+# RebootCommand=""
+
+# CPUStatusCommand="x-terminal-emulator -name top -title Process\ Status -e top"
+AddressBarCommand="grun"
+
+DesktopBackgroundCenter= 1 # 0/1
+
+SupportSemitransparency=1 # 0/1
+
+
+
+#  Execute taskbar applet commands (like MailCommand,     ClockCommand,   ...) on single click
+# TaskBarLaunchOnSingleClick=1 # 0/1
+ DesktopBackgroundColor="rgb:00/00/00"
+
+#DesktopBackgroundImage="/home/tuxun/.icewm/dead.png"
+DesktopBackgroundImage="/home/tuxun/.icewm/labr.jpg"
+#  Color to announce for semi-transparent windows
+# DesktopTransparencyColor="rgb:00/00/00"
+
+#  Image to announce for semi-transparent windows
+#DesktopTransparencyImage="/home/tuxun/.icewm/dead.png"
+DesktopTransparencyImage="/home/tuxun/.icewm/labr.jpg"
+#  
+
+#  Show programs submenu
+ ShowProgramsMenu=1 # 0/1
+
+#  Show settings submenu
+ ShowSettingsMenu=1 # 0/1
+
+#  Show focus mode submenu
+ ShowFocusModeMenu=1 # 0/1
+
+#  Show themes submenu
+ ShowThemesMenu=1 # 0/1
+
+#  Show logout submenu
+ ShowLogoutMenu=1 # 0/1
+
+#  Show the help menu item
+ ShowHelp=1 # 0/1
+
+#  Show logout submenu
+ ShowLogoutSubMenu=1 # 0/1
+
+#  Show the about menu item
+ ShowAbout=1 # 0/1
+
+#  Show the run menu item
+ ShowRun=1 # 0/1
+
+#  Show the window menu item
+ ShowWindowList=1 # 0/1
+
+#  Allow to switch a window to fullscreen
+ AllowFullscreen=1 # 0/1
+
+#  Enable address bar functionality in taskbar
+ EnableAddressBar=1 # 0/1
+
+#  Delay between power status updates (seconds)
+ BatteryPollingPeriod=1200 # [2-3600]
+
+#  Theme author, e-mail address, credits
+ ThemeAuthor="tuxun"
+
+#  Surround the tray with plastic border
+ TrayDrawBevel=1 # 0/1
+
+#  Command to cancel logout
+# LogoutCancelCommand=""
+
+
+#  Network device to show status for
+NetworkStatusDevice="wlan0 ethO"
+#  Command to reboot the system
+# RebootCommand="gksu init 6"
+
+#  Command to run on Net status
+# NetStatusCommand="x-terminal-emulator -name netstat -title 'Network Status' -e netstat -c"
+
+#  Command to run on CPU status
+# CPUStatusCommand="x-terminal-emulator -name top -title Process\ Status -e top"
+
+#  Icon search path (colon separated)
+# IconPath="/usr/share/icons:/usr/share/pixmaps"
+#  Show address bar in task bar
+ ShowAddressBar=1 # 0/1
+
+#  Number of seconds the taskbar app will blink when requesting focus (0 = forever)
+ FocusRequestFlashTime=120 # [0-86400]
+#  Overrides automatic multiple byte detection
+ MultiByte=1 # 0/1
+
+#  Taskbar blink interval (ms) when requesting focus (0 = blinking disabled)
+ FocusRequestFlashInterval=250 # [0-30000]
+#  Width of CPU Monitor
+ TaskBarCPUSamples=40 # [2-1000]
+
+#  Delay between CPU Monitor samples in ms
+ TaskBarCPUDelay=1500 # [10-3600000]
+
+#  Width of Net Monitor
+ TaskBarNetSamples=40 # [2-1000]
+
+#  Delay between Net Monitor samples in ms
+ TaskBarNetDelay=500 # [10-3600000]
+
+#  default number of tasks in taskbar
+# TaskbarButtonWidthDivisor=3 # [1-25]
+
+#  Width of APM Monitor
+ TaskBarApmGraphWidth=10 # [1-1000]
+#  Confirm logout
+# ConfirmLogout=1 # 0/1
+
+#  Distance in pixels before windows snap together
+ SnapDistance=16 # [0-64]
+
+#  Support for semitransparent terminals like Eterm or gnome-terminal
+ SupportSemitransparency=1 # 0/1
+
+#  Screen edge workspace switching delay
+ EdgeSwitchDelay=100 # [0-5000]
+#  Delay before task bar is hidden
+ AutoHideDelay=1000 # [0-5000]
+#  Outgoing load on the network monitor
+ ColorNetSend="rgb:FF/00/00"
+
+#  Show APM/ACPI/Battery/Power status monitor on task bar
+ TaskBarShowAPMStatus=1 # /1
+#  Show APM status on task bar in time-format
+ TaskBarShowAPMTime=1 # 0/1
+
+#  Show APM status in graph mode
+ TaskBarShowAPMGraph=1 # 0/1
+
+#  Incoming load on the network monitor
+ ColorNetReceive="rgb:FF/00/FF"
+
+#  Idle (non) load on the network monitor, leave empty to force transparency
+# ColorNetIdle="rgb:00/00/00"
+
+#  List of gradient pixmaps in the current theme
+# Gradients=""
+
+#  
+
+#  Does it support the 'O' title bar button images (for mouse rollover)
+ RolloverButtonsSupported=1 # 0/1
+#  Image to announce for semi-transparent windows
+# DesktopTransparencyImage=""
+WorkspaceNames="CAO", "SRC", "WEB", "ETC"
+#  Delay before task bar is shown
+AutoShowDelay=500 # [0-5000]
+
+#  Delay fuzziness, to allow merging of multiple timer timeouts into one (notebook power saving)
+ DelayFuzziness=10 # [0-100]
+
+#  Use double buffering when redrawing the display
+ DoubleBuffer=1 # 0/1
+#  See which tooltip items over the CPU monitor on the task bar work
+#  for you and disable the ones that don't
+CPUStatusShowAcpiTemp=1 # 0/1
+CPUStatusShowCpuFreq=1# 0/1
+#  Show the window menu item
+#  (you might want to disable this if you keep the window list on the task bar)
+
+
+ShowWindowList=0 # 0/1
+#  Command to run on clock
+ClockCommand="orage"
+#  Command to select and run a program (I use xfce4-appfinder
+#  because I have Xfce already installed but gmrun is great for this
+# - Run... entry on the menu)
+RunCommand="gmrun"
+#  Show a mini desktop preview on each workspace button
+#  (instead of just the workspace number)
+PagerShowPreview=1 # 0/1
+#  Show number of workspace on workspace button (if PagerShowPreview=1)
+PagerShowNumbers=1 # 0/1
+#  Preselect to Cancel (0) or the OK (1) button in message boxes
+#  (logout, restart and shutdown)
+MsgBoxDefaultAction=1 # [0-1]
+OpenCommand="nautilus --no-desktop"
+LockCommand="i3lock -c 000000"
+
+
+#  Disable use of new XRANDR API for dual head (nvidia workaround)
+# XRRDisable=0 # 0/1
+#  Rectangle arround the active icon in the quick switch window
+# ColorQuickSwitchActive=""
+#  Alt+Tab to windows on other workspaces
+QuickSwitchToAllWorkspaces=1 # 0/1
+
+#  Background of the taskbar
+ ColorDefaultTaskBar="rgb:30/30/30"
+DesktopBackgroundScaled=1 # 0/1
+
+LogoutCommand="sh -c wm-exit.sh"
+
+
+#  Command to shutdown the system
+ShutdownCommand="gksu shutdown -h now"

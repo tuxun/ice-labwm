@@ -1,0 +1,5 @@
+prog "Blender" blender-32x32.xpm blender
+prog "FreeCad" /usr/lib/freecad/data/freecad.xpm freecad
+prog "Cura" /usr/share/cura/resources/cura.ico cura
+prog "RepetierHost" /usr/RepetierHost/repetier-logo.png /usr/RepetierHost/repetierHost
+prog "PronterFace" /usr/share/pixmaps/pronterface.png /usr/printrun/Printrun/pronterface.py
