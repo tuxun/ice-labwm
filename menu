@@ -4,17 +4,17 @@
 # since modifications to this file will be discarded when you
 # (re)install icewm.
 #
-prog xterm xterm xterm
-prog rxvt xterm rxvt -bg black -cr green -fg white -C -fn 9x15 -sl 500
-prog fte fte fte
-prog NEdit nedit nedit
-prog iceweasel iceweasel iceweasel
+prog gnome-terminal gnome-terminal gnome-terminal
+
+
 prog pidgin pidgin pidgin
 
 separator
 menuprog Gnome folder icewm-menu-gnome1 --list 
 menuprog Gnome folder icewm-menu-gnome2 --list 
 menuprog KDE folder icewm-menu-gnome --list /usr/share/applnk/
-menufile 3D folder cao3d
-menufile 2D folder cao2d
+menufile 3D folder 3D-menu
+menufile 2D folder 2D-menu
+menufile WEB folder WEB-menu
+menufile SRC folder SRC-menu
 menufile Tool_bar folder toolbar

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 action=$(yad --width 290 --entry --title "Exit" --window-icon "system-shutdown" \
     --center \
@@ -9,8 +9,9 @@ action=$(yad --width 290 --entry --title "Exit" --window-icon "system-shutdown" 
     "Logout" "Reboot" "Hibernate" "Suspend" "Power Off")
 ret=$?
 
-[[ $ret -eq 1 ]] && exit 0
-
+if [[ $ret -eq 1 ]]; then 
+	exit 0
+fi	
 if [[ $ret -eq 2 ]]; then
     gdmflexiserver &
     exit 0

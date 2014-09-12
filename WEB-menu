@@ -1,0 +1,8 @@
+prog wavemon wavemon wavemon
+prog wireshark wireshark.svg wireshark
+prog tor tor.png  /usr/tor-browser_fr/start-tor-browser 
+prog Arte qarte qarte
+prog XMPP pidgin-menu pidgin
+prog torrent transmission transmission-gtk
+prog iceweasel iceweasel iceweasel
+prog beton betonlogo.jpg audacious http://213.186.61.62:8400/;stream.nsv&type=mp3&volume=50&autostart=true

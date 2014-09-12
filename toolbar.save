@@ -4,14 +4,15 @@ prog XTerm xterm x-terminal-emulator
 #prog Netscape netscape netscape
 prog    "gvim" /usr/X11R6/include/X11/pixmaps/vim.xpm /usr/bin/gvim -f
 prog    "chromium" /usr/share/pixmaps/chromium-browser.png chromium-browser
-
-prog beton betonlogo.jpg audacious http://213.186.61.62:8400/;stream.nsv&type=mp3&volume=50&autostart=true
+prog "pd" /usr/share/pixmaps/puredata.xpm pd
+prog "arduino" /usr/share/pixmaps/arduino /opt/arduino-1.5.7/arduino
+prog "processing" /opt/processing-2.2.1/lib/icons/pde-48.png /opt/processing-2.2.1/processing
 
 #fritzing
-prog iceweasel iceweasel iceweasel
+#iceweasel
 prog "audacious"  /usr/share/pixmaps/audacious-32 /usr/bin/audacious
 prog home home caja --no-desktop
-prog pluma pluma pluma
+prog pluma Nedit pluma
 }
 menu setting /usr/share/icons/HighContrast/32x32/emblems/emblem-system.png {
 prog 1024x600 1024x600 xrandr -s 0

@@ -1,7 +1,8 @@
 #!/bin/bash
 nm-applet&
-sleep 1
 mate-power-manager&
-sleep 1&
-gnome-sound-applet&
+gkrellm &
 xfce4-clipman &
+Esetroot -m labr.jpg &
+devilspie &
+#gnome-terminal --window-with-profile=DesktopConsole &

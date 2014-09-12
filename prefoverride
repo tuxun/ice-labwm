@@ -10,24 +10,24 @@ ShowAddressBar=1 # 0/1
 # CPUStatusCommand="x-terminal-emulator -name top -title Process\ Status -e top"
 AddressBarCommand="grun"
 
-DesktopBackgroundCenter= 1 # 0/1
+##DesktopBackgroundCenter= 1 # 0/1
 
 SupportSemitransparency=1 # 0/1
  IconPath="themes/tuxun/icons:/usr/share/icons:/usr/share/pixmaps"
 
 
 #  Execute taskbar applet commands (like MailCommand,     ClockCommand,   ...) on single click
-# TaskBarLaunchOnSingleClick=1 # 0/1
- DesktopBackgroundColor="rgb:00/00/00"
+TaskBarLaunchOnSingleClick=1 # 0/1
+ #DesktopBackgroundColor="rgb:00/00/00"
 
-#DesktopBackgroundImage="/home/tuxun/.icewm/dead.png"
-DesktopBackgroundImage="/home/tuxun/.icewm/labr.jpg"
+##DesktopBackgroundImage="/home/tuxun/.icewm/dead.png"
+#DesktopBackgroundImage="labr.jpg"
 #  Color to announce for semi-transparent windows
-# DesktopTransparencyColor="rgb:00/00/00"
+# #DesktopTransparencyColor="rgb:00/00/00"
 
 #  Image to announce for semi-transparent windows
-#DesktopTransparencyImage="/home/tuxun/.icewm/dead.png"
-DesktopTransparencyImage="/home/tuxun/.icewm/labr.jpg"
+##DesktopTransparencyImage="/home/tuxun/.icewm/dead.png"
+#DesktopTransparencyImage="labr.jpg"
 #  
 
 #  Show programs submenu
@@ -157,7 +157,7 @@ NetworkStatusDevice="wlan0 ethO"
 #  Does it support the 'O' title bar button images (for mouse rollover)
  RolloverButtonsSupported=0 # 0/1
 #  Image to announce for semi-transparent windows
-# DesktopTransparencyImage=""
+# #DesktopTransparencyImage=""
 WorkspaceNames="CAO", "SRC", "WEB", "ETC"
 #  Delay before task bar is shown
 AutoShowDelay=500 # [0-5000]
@@ -166,7 +166,7 @@ AutoShowDelay=500 # [0-5000]
  DelayFuzziness=10 # [0-100]
 
 #  Use double buffering when redrawing the display
- DoubleBuffer=1 # 0/1
+ DoubleBuffer=0 # 0/1
 #  See which tooltip items over the CPU monitor on the task bar work
 #  for you and disable the ones that don't
 CPUStatusShowAcpiTemp=1 # 0/1
@@ -182,8 +182,8 @@ ClockCommand="orage"
 #  Command to select and run a program (I use xfce4-appfinder
 #  because I have Xfce already installed but gmrun is great for this
 # - Run... entry on the menu)
-RunCommand="gmrun"
-#  Show a mini desktop preview on each workspace button
+RunCommand="grun"
+#  Show a mini #Desktop preview on each workspace button
 #  (instead of just the workspace number)
 PagerShowPreview=1 # 0/1
 #  Show number of workspace on workspace button (if PagerShowPreview=1)
@@ -191,12 +191,12 @@ PagerShowNumbers=1 # 0/1
 #  Preselect to Cancel (0) or the OK (1) button in message boxes
 #  (logout, restart and shutdown)
 MsgBoxDefaultAction=1 # [0-1]
-OpenCommand="nautilus --no-desktop"
+OpenCommand="nautilus --no-#Desktop"
 LockCommand="i3lock -c 000000"
 
 
 #  Disable use of new XRANDR API for dual head (nvidia workaround)
-# XRRDisable=0 # 0/1
+# XRRDisable=1 # 0/1
 #  Rectangle arround the active icon in the quick switch window
 # ColorQuickSwitchActive=""
 #  Alt+Tab to windows on other workspaces
@@ -204,9 +204,9 @@ QuickSwitchToAllWorkspaces=1 # 0/1
 
 #  Background of the taskbar
  ColorDefaultTaskBar="rgb:30/30/30"
-DesktopBackgroundScaled=1 # 0/1
+##DesktopBackgroundScaled=1 # 0/1
 
-LogoutCommand="sh -c wm-exit.sh"
+LogoutCommand="bash wm-exit.sh"
 
 
 #  Command to shutdown the system

@@ -16,9 +16,16 @@ If something go's wrong, rename your ~/.icewm/ directory, and you should get bac
 resource:
 i3lock
 orage
-icewmbg
+esetroot
+qarte www.oqapy.eu/releases/qarte_2.2.0_all.deb
 gkrellm
 gk-volumeplugin
+gk-shoot
+audacious
+universalindentui
+icecc
+grun
+mate-power-applet
 
 install script:
 user@home~$

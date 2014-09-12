@@ -1,0 +1,10 @@
+prog "pd" puredata.xpm pd
+prog "arduino" arduino /usr/arduino-1.5.7/arduino
+prog "processing" pde-32.png /usr/processing-2.2.1/processing
+prog NEdit nedit nedit
+prog bit8 home caja /var/www/html/bit8/ --no-desktop
+prog pluma pluma pluma
+prog adeti home caja /var/www/html/lug/sf2/src/ --no-desktop
+prog universalindentui universalindentui universalindentui
+prog filezilla filezilla filezilla
+prog gem pd-gem pd-gem
