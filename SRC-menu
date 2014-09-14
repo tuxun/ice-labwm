@@ -8,3 +8,5 @@ prog adeti home caja /var/www/html/lug/sf2/src/ --no-desktop
 prog universalindentui universalindentui universalindentui
 prog filezilla filezilla filezilla
 prog gem pd-gem pd-gem
+prog git-cola git-cola git-cola
+prog giggle giggle giggle
