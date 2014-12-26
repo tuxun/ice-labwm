@@ -1,8 +1,13 @@
 #!/bin/bash
 nm-applet&
-mate-power-manager&
+sleep 1 &
+gnome-power-manager&
+sleep 1 &
 gkrellm &
+sleep 1 &
 xfce4-clipman &
-Esetroot -m labr.jpg &
-devilspie &
-#gnome-terminal --window-with-profile=DesktopConsole &
+sleep 1 &
+Esetroot -m .icewm/labr.jpg &
+gksu /usr/bin/gnome-keyring-daemon --start --components=pkcs11
+#devilspie &
+gnome-terminal --window-with-profile=DesktopConsole &

@@ -5,7 +5,7 @@ prog NEdit nedit nedit
 prog bit8 home caja /var/www/html/bit8/ --no-desktop
 prog pluma pluma pluma
 prog adeti home caja /var/www/html/lug/sf2/src/ --no-desktop
-prog universalindentui universalindentui universalindentui
+prog universalindentgui universalindentgui universalindentgui
 prog filezilla filezilla filezilla
 prog gem pd-gem pd-gem
 prog git-cola git-cola git-cola

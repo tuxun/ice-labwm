@@ -1,5 +1,5 @@
 #!/bin/bash
-gksu &
+
 action=$(yad --width 290 --entry --title "Exit" --window-icon "system-shutdown" \
     --center \
     --button="gtk-close:1" \

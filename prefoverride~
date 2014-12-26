@@ -207,7 +207,7 @@ QuickSwitchToAllWorkspaces=1 # 0/1
 ##DesktopBackgroundScaled=1 # 0/1
 
 LogoutCommand="bash /home/tuxun/.icewm/wm-exit.sh"
-#LogoutCommand="gksu"
+LogoutCommand="gksu"
 
 #  Command to shutdown the system
 ShutdownCommand="gksu shutdown -h now"
